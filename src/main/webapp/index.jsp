@@ -8,8 +8,11 @@
 </head>
 <body>
 <h2>Recherche par code postal</h2>
-<form action="CommuneServlet">
-Code postal <input name="cp" id="cp" size="8"><button>Rechercher</button>
+<form action="CommuneServlet" method="get" target="_blank">
+Code postal: <input name="cp" id="cp" size="8"><button>Rechercher</button>
+</form>
+<form action="CommuneByDepartementServlet" method="get" target="_blank">
+Département: <input name="departement" id="departement"><button>Rechercher</button>
 </form>
 </body>
 </html>

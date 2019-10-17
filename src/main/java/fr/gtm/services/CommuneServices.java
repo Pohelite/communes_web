@@ -17,7 +17,9 @@ public CommuneServices(EntityManagerFactory emf) {
 public List<Commune> getCommunesByCodePostal(String codePostal){
 	return dao.getCommunesByCodePostal(codePostal);
 }
-
+public List<Commune> getCommunesByDepartement(String departement){
+	return dao.getCommunesByDepartement(departement);
+}
 
 
 }
